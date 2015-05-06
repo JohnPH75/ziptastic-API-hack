@@ -1,0 +1,68 @@
+body {
+		font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+		background-image:url("usastatescaps.jpg");
+		background-repeat: no-repeat; 
+		background-size: cover;
+		background-color: #000;
+		background-position: top center;
+		padding-top: 20%;
+		color:#000;	
+		text-shadow: 1px 1px 1px #FFF;
+		text-align: center;
+	}
+h1 {
+	font-size:1.3em;
+	text-transform:uppercase;
+	padding-top: 0.5em;
+}
+input {
+	padding:6px;
+	border:3px solid #fff;
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-transform:uppercase;
+    font-weight:bolder;
+    font-size:16px;
+}
+input:focus {
+	border-color:#00aeff;
+	outline:0;
+	background:#fff;
+}
+input[type=submit] {
+	width:80px;
+	background:#00aeff;
+	border-color:#00aeff;
+	color:#000;
+	text-shadow: 1px 1px 1px #FFF;
+	cursor:pointer;
+}
+
+form{
+	padding-left: 0%;
+}
+
+.container{ 
+	width:720px; 
+	height: 100%; 
+	background: darkgray;
+	margin: 0 auto;
+}
+p{
+	font-weight: bolder;
+}
+p a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-top: 1rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+ }
+p a:hover {
+  cursor: pointer;
+  color: #FFCF65;
+  text-shadow: 1px 1px 1px black;
+}
